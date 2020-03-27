@@ -30,4 +30,105 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* ----- zde začni psát vlastní CSS ----- */
+li{
+    display:inline-block;
+}
+
+/* ul{
+    background-color: white;
+    padding:0;
+    margin:0;
+} */
+
+.lista a:hover,
+.lista a:focus {
+    background-color:#48418e;
+    color:white;
+}
+
+.lista a {
+    display: block;
+    padding:1em;
+    text-decoration:none;
+    color:#25133d
+}
+
+.superAppka a {
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+.obsahHorni {
+    background-image: url("images/pozadi.jpg");
+    position:relative;
+    background-size: cover;
+    padding:30px;
+    margin:0px;
+}
+
+.obsahHorni img {
+    position:absolute;
+    max-height: 300px;
+    right:0px;
+    bottom:0px;
+}
+
+h1{
+    color:white;
+    font-size:100px;
+    font-weight: 700px;
+    margin: 10px;
+}
+   
+h2{
+    color:white;
+    font-size:40px;
+    font-weight: 400px;
+    font-weight: lighter;
+}
+
+.obsahHorni button{
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    padding:20px 40px;
+    margin:40px 10px 20px 0px;
+    
+}
+
+.obsahHorni button a {
+    color:white;
+    display: block;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+button a:hover,
+button a:focus{
+    background-color:#48418e;
+}
+
+.obsahSpodni{
+    display:flex;
+    padding:20px;
+    text-align:center;
+    justify-content: space-around;
+}
+
+.obsahSpodni img{
+    height:70px;
+}
+
+h3{
+    color:#48418e;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #48418e;
+    text-align:center;
+    color:white;
+    padding:0.5px;
+}
